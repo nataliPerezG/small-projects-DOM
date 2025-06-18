@@ -106,3 +106,20 @@ li button {
   background-color: #fff;
   height: 5dvh;
 }
+
+.status {
+  background-color: #ddd;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  font-size: .6rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hidden {
+  display: none;
+}
