@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="task.css">
+  <title>To Do Task</title>
+
+</head>
+
+
+<body>
+  <h1>Lista de Tareas</h1>
+
+  <main>
+
+    <form id="form">
+      <input class="input" type="text" placeholder="Agregar tarea" autofocus>
+      <button class="button" type="submit">CREAR TAREA</button>
+    </form>
+
+    <ol class="lista"></ol>
+
+
+  </main>
+
+  <template id="template">
+    <li class="tarea" data-num="1">
+      <div class="content-list">
+        <p class="texto"></p>
+        <button class="eliminar">Eliminar</button>
+      </div>
+    </li>
+  </template>
+
+  <script src="task.js"></script>
+
+</body>
+
+</html>
